@@ -1,0 +1,38 @@
+site_name: Documentação para proxy
+site_author: Jurandy Soares
+
+theme:
+  name: material
+  language: pt
+  palette:
+    primary: green
+
+nav:
+  - index.md
+  - instalacao.md
+  - configuracao.md
+  - acl:
+    - acl/src.md
+    - acl/dst.md
+    - acl/dstdomain.md
+    - acl/time.md
+    - acl/url-regex.md
+    - acl/port.md
+    - acl/proxy-auth.md
+
+  - listas.md
+  - servico.md
+  - log.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+plugins:
+  - mermaid2
+
+extra_javascript:
+  - https://unpkg.com/mermaid@8.7.0/dist/mermaid.min.js
