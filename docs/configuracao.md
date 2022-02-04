@@ -76,3 +76,6 @@ A configuração básica do squid consiste em:
 3. Reiniciar o serviço
 4. Acompanhar ou analisar os arquivos de log de acesso do squid
 
+## Outras configurações
+
+Há configurações do squid que são relacionadas a outros serviços do Linux. Para ver breve apresentação delas, veja [Outras configurações](outras-confs.md).

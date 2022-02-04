@@ -1,0 +1,11 @@
+  @startuml
+  autonumber "<b>0:"
+  actor "Você" as voce
+  voce -> Navegador: Informa URL
+  Navegador -> Proxy: Solicita URL
+  Proxy -> Servidor: Requisita URL
+  Servidor --> Proxy: Envia resposta
+  Proxy --> Navegador: Encaminha resposta
+  Navegador --> voce: Hipertexto formatado
+
+@enduml

@@ -11,18 +11,23 @@ nav:
   - index.md
   - instalacao.md
   - configuracao.md
-  - acl:
-    - acl/src.md
-    - acl/dst.md
-    - acl/dstdomain.md
-    - acl/time.md
-    - acl/url-regex.md
-    - acl/port.md
-    - acl/proxy-auth.md
+  - Listas: listas.md
 
-  - listas.md
+  - ACL:
+    - Origem: acl/src.md
+    - Destino: acl/dst.md
+    - Domínio: acl/dstdomain.md
+    - Tempo: acl/time.md
+    - Regex: acl/url-regex.md
+    - Porta: acl/port.md
+    - Autenciação: acl/proxy-auth.md
+
+  - regras.md
+  - exemplos.md
   - servico.md
   - log.md
+  - outras-confs.md
+  - referencias.md
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -30,6 +35,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - footnotes
+  - pymdownx.emoji
 
 plugins:
   - mermaid2
