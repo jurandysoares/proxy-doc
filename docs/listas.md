@@ -35,7 +35,7 @@ Defining an Access List
 As _ACLs_ são dispostas das seguintes formas:
 
 ```squid
-acl NOME_DA_ACL TIPO_DA_ACL parâmetro
+acl NOME_DA_ACL TIPO_DA_ACL argumento
 \_/ \_________/ \_________/ \_______/
  1       2           3          4    
 ```
@@ -43,7 +43,7 @@ acl NOME_DA_ACL TIPO_DA_ACL parâmetro
 ou
 
 ```squid
-acl NOME_DA_ACL TIPO_DA_ACL '/caminho/completo/regra.conf'
+acl NOME_DA_ACL TIPO_DA_ACL "/caminho/completo/regra.conf"
 \_/ \_________/ \_________/ \____________________________/
  1       2           3                    4                       
 ```
