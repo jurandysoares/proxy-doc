@@ -1,0 +1,377 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="pt">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Jurandy Soares" name="author"/>
+<link href="../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.2.3, mkdocs-material-8.1.9" name="generator"/>
+<title>Instalação - Documentação para proxy</title>
+<link href="../assets/stylesheets/main.2b4465f4.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/palette.e6a45f82.min.css" rel="stylesheet"/>
+<meta content="#4cae4f" name="theme-color"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="" data-md-color-primary="green" data-md-color-scheme="" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#instalacao">
+          Ir para o conteúdo
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Cabeçalho" class="md-header__inner md-grid">
+<a aria-label="Documentação para proxy" class="md-header__button md-logo" data-md-component="logo" href=".." title="Documentação para proxy">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Documentação para proxy
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Instalação
+            
+          </span>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navegação" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Documentação para proxy" class="md-nav__button md-logo" data-md-component="logo" href=".." title="Documentação para proxy">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"></path></svg>
+</a>
+    Documentação para proxy
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="..">
+        Proxy
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Instalação
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Instalação
+      </a>
+<nav aria-label="Índice" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dados-do-pacote-principal">
+    Dados do pacote principal
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pacotes-relacionados">
+    Pacotes relacionados
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../configuracao/">
+        Configuração
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../listas/">
+        Listas
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5">
+          ACL
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="ACL" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+          ACL
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../acl/src/">
+        Origem
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../acl/dst/">
+        Destino
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../acl/dstdomain/">
+        Domínio
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../acl/time/">
+        Tempo
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../acl/url-regex/">
+        Regex
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../acl/port/">
+        Porta
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../acl/proxy-auth/">
+        Autenciação
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../regras/">
+        Regras
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../exemplos/">
+        Exemplo
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../servico/">
+        Serviço
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../log/">
+        Logs -- arquivos de registros
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../outras-confs/">
+        Outras configurações
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../referencias/">
+        Referências
+      </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Índice" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dados-do-pacote-principal">
+    Dados do pacote principal
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pacotes-relacionados">
+    Pacotes relacionados
+  </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="instalacao">Instalação</h1>
+<ul>
+<li>Pacote: <code>squid</code></li>
+<li>Serviço: <code>squid.service</code></li>
+<li>Porta padrão: <code>3128</code> (É comum mudar)</li>
+</ul>
+<p>Roteiro:</p>
+<ol>
+<li>Atualizar catálogo: <code>apt update</code></li>
+<li>Instalar pacote: <code>apt install -y squid</code></li>
+</ol>
+<h2 id="dados-do-pacote-principal">Dados do pacote principal</h2>
+<ul>
+<li>Comando: <code>apt show squid</code></li>
+<li>
+<p>Saída:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="nt">Package</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">squid</span><span class="w"></span>
+<span class="nt">Version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">4.10-1ubuntu1.5</span><span class="w"></span>
+<span class="nt">Priority</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">optional</span><span class="w"></span>
+<span class="nt">Section</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">web</span><span class="w"></span>
+<span class="nt">Origin</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Ubuntu</span><span class="w"></span>
+<span class="nt">Maintainer</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Ubuntu Developers &lt;ubuntu-devel-discuss@lists.ubuntu.com&gt;</span><span class="w"></span>
+<span class="nt">Original-Maintainer</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Luigi Gangitano &lt;luigi@debian.org&gt;</span><span class="w"></span>
+<span class="nt">Bugs</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://bugs.launchpad.net/ubuntu/+filebug</span><span class="w"></span>
+<span class="nt">Installed-Size</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">8.809 kB</span><span class="w"></span>
+<span class="nt">Provides</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">squid3</span><span class="w"></span>
+<span class="nt">Pre-Depends</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">adduser</span><span class="w"></span>
+<span class="nt">Depends</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">libc6 (&gt;= 2.29), libcap2 (&gt;= 1:2.10), libcom-err2 (&gt;= 1.43.9), libcrypt1 (&gt;= 1:4.1.0), libdb5.3, libecap3 (&gt;= 1.0.1), libexpat1 (&gt;= 2.0.1), libgcc-s1 (&gt;= 3.0), libgnutls30 (&gt;= 3.6.12), libgssapi-krb5-2 (&gt;= 1.17), libkrb5-3 (&gt;= 1.10+dfsg~), libldap-2.4-2 (&gt;= 2.4.7), libltdl7 (&gt;= 2.4.6), libnetfilter-conntrack3 (&gt;= 1.0.7), libnettle7, libpam0g (&gt;= 0.99.7.1), libsasl2-2 (&gt;= 2.1.27+dfsg), libstdc++6 (&gt;= 9), libxml2 (&gt;= 2.7.4), netbase, logrotate (&gt;= 3.5.4-1), squid-common (&gt;= 4.10-1ubuntu1.5), lsb-base, libdbi-perl, ssl-cert</span><span class="w"></span>
+<span class="nt">Recommends</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">libcap2-bin, ca-certificates</span><span class="w"></span>
+<span class="nt">Suggests</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">squidclient, squid-cgi, squid-purge, resolvconf (&gt;= 0.40), smbclient, ufw, winbind, apparmor</span><span class="w"></span>
+<span class="nt">Homepage</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">http://www.squid-cache.org</span><span class="w"></span>
+<span class="nt">Download-Size</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">2.562 kB</span><span class="w"></span>
+<span class="nt">APT-Sources</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages</span><span class="w"></span>
+<span class="nt">Description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cache proxy Web repleto de recursos (HTTP proxy)</span><span class="w"></span>
+<span class="l l-Scalar l-Scalar-Plain">Squid é um servidor proxy cache de alta performace para clientes web,</span><span class="w"></span>
+<span class="l l-Scalar l-Scalar-Plain">suportando FTP, gopher, ICY e objetos de dados do HTTP.</span><span class="w"></span>
+</code></pre></div>
+</td></tr></table>
+</li>
+</ul>
+<h2 id="pacotes-relacionados">Pacotes relacionados</h2>
+<ul>
+<li>Comando: <code>apt list squid*</code></li>
+<li>Comando: <code>apt list squid* | cut -d/ -f1</code></li>
+<li>
+<p>Saída:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>Listing...
+squid-cgi
+squid-common
+squid-deb-proxy-client
+squid-deb-proxy
+squid-langpack
+squid-purge
+squid
+squidclient
+squidguard-doc
+squidguard
+squidtaild
+squidview
+</code></pre></div>
+</td></tr></table>
+</li>
+</ul>
+<p>Caso queira descobrir para que serve cada um dos pacotes acima, use o comando:</p>
+<ul>
+<li><code>apt show PACOTE</code></li>
+</ul>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Rodapé" class="md-footer__inner md-grid">
+<a aria-label="Anterior: Proxy" class="md-footer__link md-footer__link--prev" href=".." rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Anterior
+              </span>
+              Proxy
+            </div>
+</div>
+</a>
+<a aria-label="Próximo: Configuração" class="md-footer__link md-footer__link--next" href="../configuracao/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Próximo
+              </span>
+              Configuração
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}, "search": "../assets/javascripts/workers/search.22074ed6.min.js"}</script>
+<script src="../assets/javascripts/bundle.960e086b.min.js"></script>
+<script src="https://unpkg.com/mermaid@8.7.0/dist/mermaid.min.js"></script>
+</body>
+</html>

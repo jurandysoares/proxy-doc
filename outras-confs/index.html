@@ -1,0 +1,414 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="pt">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Jurandy Soares" name="author"/>
+<link href="../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.2.3, mkdocs-material-8.1.9" name="generator"/>
+<title>Outras configurações - Documentação para proxy</title>
+<link href="../assets/stylesheets/main.2b4465f4.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/palette.e6a45f82.min.css" rel="stylesheet"/>
+<meta content="#4cae4f" name="theme-color"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="" data-md-color-primary="green" data-md-color-scheme="" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#outras-configuracoes">
+          Ir para o conteúdo
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Cabeçalho" class="md-header__inner md-grid">
+<a aria-label="Documentação para proxy" class="md-header__button md-logo" data-md-component="logo" href=".." title="Documentação para proxy">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Documentação para proxy
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Outras configurações
+            
+          </span>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navegação" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Documentação para proxy" class="md-nav__button md-logo" data-md-component="logo" href=".." title="Documentação para proxy">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"></path></svg>
+</a>
+    Documentação para proxy
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="..">
+        Proxy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../instalacao/">
+        Instalação
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../configuracao/">
+        Configuração
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../listas/">
+        Listas
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5">
+          ACL
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="ACL" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+          ACL
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../acl/src/">
+        Origem
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../acl/dst/">
+        Destino
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../acl/dstdomain/">
+        Domínio
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../acl/time/">
+        Tempo
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../acl/url-regex/">
+        Regex
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../acl/port/">
+        Porta
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../acl/proxy-auth/">
+        Autenciação
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../regras/">
+        Regras
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../exemplos/">
+        Exemplo
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../servico/">
+        Serviço
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../log/">
+        Logs -- arquivos de registros
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Outras configurações
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Outras configurações
+      </a>
+<nav aria-label="Índice" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#apparmor">
+    apparmor
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sysvinit">
+    SysVinit
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#logrotate">
+    logrotate
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resolvconf">
+    resolvconf
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#squid">
+    squid
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#systemd">
+    systemd
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ufw">
+    ufw
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../referencias/">
+        Referências
+      </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Índice" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#apparmor">
+    apparmor
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sysvinit">
+    SysVinit
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#logrotate">
+    logrotate
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resolvconf">
+    resolvconf
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#squid">
+    squid
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#systemd">
+    systemd
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ufw">
+    ufw
+  </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="outras-configuracoes">Outras configurações</h1>
+<h2 id="apparmor">apparmor</h2>
+<ul>
+<li><code>/etc/apparmor.d/disable/usr.sbin.squid</code></li>
+<li><code>/etc/apparmor.d/local/usr.sbin.squid</code></li>
+<li><code>/etc/apparmor.d/usr.sbin.squid</code></li>
+</ul>
+<h2 id="sysvinit">SysVinit</h2>
+<p>Scripts de gerenciamento do serviço, padrão Init do Sys V. Para maiores informações, visite: <a href="https://guialinux.uniriotec.br/init/">https://guialinux.uniriotec.br/init/</a> :</p>
+<ul>
+<li><code>/etc/init.d/squid</code></li>
+</ul>
+<p>Scripts de inicialização ou interrupção do serviço, de acordo com o nível de inicialização (<em>runlevel</em> em inglês) da máquina:</p>
+<ul>
+<li><code>/etc/rc0.d/K01squid</code></li>
+<li><code>/etc/rc1.d/K01squid</code></li>
+<li><code>/etc/rc2.d/S01squid</code></li>
+<li><code>/etc/rc3.d/S01squid</code></li>
+<li><code>/etc/rc4.d/S01squid</code></li>
+<li><code>/etc/rc5.d/S01squid</code></li>
+<li>
+<p><code>/etc/rc6.d/K01squid</code></p>
+<p>Breve comentário sobre o arquivo <code>/etc/rc2.d/S01squid</code>:
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>/etc/ rc 2 .d/S 01 squid
+\___/ \/ | \__/ \/ \___/
+a   b  c  d   e   f
+</code></pre></div>
+</td></tr></table></p>
+<ol>
+<li>
+<p><code>/etc/</code>
+    Explicação</p>
+</li>
+<li>
+<p><code>rc</code>
+    Explicação</p>
+</li>
+<li>
+<p><code>1</code>
+    Explicação</p>
+</li>
+<li>
+<p><code>.d/K</code>
+    Explicação</p>
+</li>
+<li>
+<p><code>01</code>
+    Explicação</p>
+</li>
+<li>
+<p><code>squid</code>
+    Explicação</p>
+</li>
+</ol>
+</li>
+</ul>
+<h2 id="logrotate">logrotate</h2>
+<p>Arquivo relacionado à rotação dos arquivos de log do squid:</p>
+<ul>
+<li><code>/etc/logrotate.d/squid</code></li>
+</ul>
+<h2 id="resolvconf">resolvconf</h2>
+<p>Arquivo relacionado a resolução de nomes do DNS:</p>
+<ul>
+<li><code>/etc/resolvconf/update-libc.d/squid</code></li>
+</ul>
+<h2 id="squid">squid</h2>
+<p>Arquivos específicos de configuração do squid:</p>
+<ul>
+<li><code>/etc/squid/conf.d/debian.conf</code></li>
+<li><code>/etc/squid/errorpage.css</code></li>
+<li><code>/etc/squid/squid.conf</code></li>
+</ul>
+<h2 id="systemd">systemd</h2>
+<p>Arquivo de configuração do serviço para o <em>systemd</em>:</p>
+<ul>
+<li><code>/etc/systemd/system/multi-user.target.wants/squid.service</code></li>
+</ul>
+<h2 id="ufw">ufw</h2>
+<p>Firewall do Ubuntu</p>
+<ul>
+<li><code>/etc/ufw/applications.d/squid</code></li>
+</ul>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Rodapé" class="md-footer__inner md-grid">
+<a aria-label="Anterior: Logs -- arquivos de registros" class="md-footer__link md-footer__link--prev" href="../log/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Anterior
+              </span>
+              Logs -- arquivos de registros
+            </div>
+</div>
+</a>
+<a aria-label="Próximo: Referências" class="md-footer__link md-footer__link--next" href="../referencias/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Próximo
+              </span>
+              Referências
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}, "search": "../assets/javascripts/workers/search.22074ed6.min.js"}</script>
+<script src="../assets/javascripts/bundle.960e086b.min.js"></script>
+<script src="https://unpkg.com/mermaid@8.7.0/dist/mermaid.min.js"></script>
+</body>
+</html>
