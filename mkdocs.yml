@@ -2,7 +2,7 @@ site_name: Proxy HTTP com Squid
 site_author: Jurandy Soares
 
 repo_url: https://github.com/jurandysoares/proxy-doc
-edit_uri: ""
+edit_uri: "edit/main/docs"
 
 theme:
   name: material
