@@ -4,7 +4,7 @@ Os arquivos de registro de acesso (*access log* em inglês) do squid encontram-s
 
 - [SquidFaq/SquidLogs - Squid Web Proxy Wiki](https://wiki.squid-cache.org/SquidFaq/SquidLogs)
 
-## Como vejo os arquivos/logs do Squid Log?
+## Como vejo os arquivos/logs do Squid Log? [^1]
 
 Você pode usar o comando padrão do UNIX/Linux, como `grep`/`tail`, para visualizar os arquivos de log. Você deve efetuar login como *root* ou comando `sudo` para visualizar os arquivos de log.
 
@@ -33,3 +33,4 @@ Finalmente, você pode usar o editor de texto como o vi para visualizar os arqui
 - `# vi /var/log/squid/access.log`
 
 
+[^1] Adaptado de: <https://www.cyberciti.biz/faq/howto-linux-unix-view-squid-log-files/>
