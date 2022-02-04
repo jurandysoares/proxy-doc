@@ -22,7 +22,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#acl-de-expressao-regular-na-url-url_regex">
+<a class="md-skip" href="#acl-de-expressao-regular-na-url">
           Ir para o conteúdo
         </a>
 </div>
@@ -52,6 +52,16 @@
 </div>
 </div>
 </div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/jurandysoares/proxy-doc" title="Ir ao repositório">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
 </nav>
 </header>
 <div class="md-container" data-md-component="container">
@@ -67,6 +77,16 @@
 </a>
     Proxy HTTP com Squid
   </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/jurandysoares/proxy-doc" title="Ir ao repositório">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
 <a class="md-nav__link" href="../..">
@@ -184,24 +204,26 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1 id="acl-de-expressao-regular-na-url-url_regex">ACL de expressão regular na URL: <strong>url_regex</strong></h1>
+<h1 id="acl-de-expressao-regular-na-url">ACL de expressão regular na URL</h1>
 <p><strong>url_regex</strong></p>
 <p>Trata uma determinada entrada na URL. Pode-se fazer muitas regras baseadas em expressões regulares, porém é preciso conhecer muito bem sobre o assunto.</p>
 <ul>
 <li>
 <p>Exemplo: </p>
-<p><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="k">acl</span><span class="w"> </span>EXTENSAO_PROIBIDA<span class="w"> </span><span class="k">url_regex</span><span class="w"> </span>-i<span class="w"> </span>\.exe$<span class="w"></span>
 \_/<span class="w"> </span>\_______________/<span class="w"> </span>\_______/<span class="w"> </span>\/<span class="w"> </span>\____/<span class="w"></span>
 <span class="w"> </span>a<span class="w">          </span>b<span class="w">             </span>c<span class="w">     </span>d<span class="w">    </span>e<span class="w">  </span>
 </code></pre></div>
 </td></tr></table>
-1. Diretiva que indica que uma ACL será definida
-2. Nome da ACL
-3. Tipo da ACL
-4. 
-5. Segundo (2º) parâmetro do tipo de ACL</p>
+<ol>
+<li>Diretiva que indica que uma ACL será definida</li>
+<li>Nome da ACL</li>
+<li>Tipo da ACL</li>
+<li></li>
+<li>Segundo (2º) parâmetro do tipo de ACL</li>
+</ol>
 </li>
 </ul>
 </article>
