@@ -2,6 +2,13 @@
 
 ## apparmor
 
+Perfis do apparmor para o squid. Para maiores informações sobre o apparmor, visite:
+
+- [14.4. Introdução ao AppArmor](https://debian-handbook.info/browse/pt-BR/stable/sect.apparmor.html)
+[
+
+Arquivo:
+
 - `/etc/apparmor.d/disable/usr.sbin.squid`
 - `/etc/apparmor.d/local/usr.sbin.squid`
 - `/etc/apparmor.d/usr.sbin.squid`
@@ -26,27 +33,29 @@ Scripts de inicialização ou interrupção do serviço, de acordo com o nível 
     Breve comentário sobre o arquivo `/etc/rc2.d/S01squid`:
     ```
     /etc/ rc 2 .d/S 01 squid
-    \___/ \/ | \__/ \/ \___/
-    a   b  c  d   e   f
+    \___/ \/ | \/\/ \/ \___/
+    a   b  c d  e f  g   h
     ```
 
-    1. `/etc/`
-        Explicação
+    1. `/etc/`: 
+        Diretório de arquivos de configuração do sistema.
 
-    2. `rc`
-        Explicação
+    2. `rc`:
+        Diretório de recursos (*resources* em inglês).
 
-    3. `1`
-        Explicação
+    3. `2`:
+        Nível de execução (*runlevel* em inglês) à qual se refere o diretório.
 
-    4. `.d/K`
-        Explicação
+    4. `.d`:
+        Especifica que é um diretório.
+        
+    5. `S`: indica que o serviço será iniciado (*Started* em inglês) no nível de execução (*runlevel* em inglês) referenciado. Caso o serviço deva ser parado (*Killed* em inglês) no *runlevel*, a letra `K` é utilizada.
 
-    5. `01`
-        Explicação
+    5. `01`:
+        Indica a ordem de em que o serviço será parado ou iniciado.
 
-    6. `squid`
-        Explicação
+    6. `squid`:
+        Especifica o nome do serviço.
 
 
 ## logrotate
@@ -77,6 +86,11 @@ Arquivo de configuração do serviço para o *systemd*:
 
 ## ufw
 
-Firewall do Ubuntu
+Arquivo com perfil de configuração para o firewall *ufw*:
 
 - `/etc/ufw/applications.d/squid`
+
+Para maiores informações, visite:
+
+- <https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-18-04-pt>
+- <https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands>

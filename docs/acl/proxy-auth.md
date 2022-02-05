@@ -9,7 +9,7 @@
     ```squid
     acl DIRETOR proxy_auth joao
     \_/ \_____/ \________/ \__/
-     1     2        3       4  
+     a     b        c       d  
     ```
     
     1. Diretiva que indica que uma ACL será definida
