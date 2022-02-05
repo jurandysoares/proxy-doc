@@ -16,5 +16,5 @@ Trata uma determinada entrada na URL. Pode-se fazer muitas regras baseadas em ex
     2. Nome da ACL
     3. Tipo da ACL
     4. Opção que faz a ACL não distinguir letras maiúsculas de minúsculas
-    5. Segundo (2º) parâmetro do tipo de ACL
+    5. Expressão regular que especifica: *terminar com extensão `.exe`*
 
