@@ -30,7 +30,7 @@ Use o comando `grep` da seguinte forma:
 
 Finalmente, você pode usar o editor de texto como o vi para visualizar os arquivos de log:
 
-- `# vi /var/log/squid/access.log`
+- `# view /var/log/squid/access.log`
 
 
-[^1] Adaptado de: <https://www.cyberciti.biz/faq/howto-linux-unix-view-squid-log-files/>
+[^1]: Adaptado de: <https://www.cyberciti.biz/faq/howto-linux-unix-view-squid-log-files/>
