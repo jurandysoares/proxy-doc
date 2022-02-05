@@ -43,7 +43,7 @@ acl NOME_DA_ACL TIPO_DA_ACL argumento
 ou
 
 ```squid
-acl NOME_DA_ACL TIPO_DA_ACL "/caminho/completo/regra.conf"
+acl NOME_DA_ACL TIPO_DA_ACL "/caminho/completo/regra.conf" 
 \_/ \_________/ \_________/ \____________________________/
  1       2           3                    4                       
 ```
