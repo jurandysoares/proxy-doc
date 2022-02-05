@@ -9,3 +9,6 @@ O serviço do squid, para o systemd, chama-se `squid.service`. Portanto, podemos
 - Verificarmos se está ativo: `systemctl is-active squid.service`
 - Verificarmos se está habilitado: `systemctl is-enabled squid.service`
 - Fazermos ele recarregar o arquivo de configuração: `systemctl reload squid.service`
+- Habilitá-lo: `systemctl enable squid.service`
+- Desabilitá-lo: `systemctl disable squid.service`
+- Habilitá-lo e iniciá-lo: `systemctl enable --now squid.service`
